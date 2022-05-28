@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link, Outlet } from 'react-router-dom';
 import About from './About';
+import Contact from './Contact';
 import './Home.css'
 
 const Home = () => {
     return (
-        <div className='homeBody'>
+        <section className='homeBody'>
             <div className="container">
                 <div className="row mt-5">
                         <div className="col-md-6">
@@ -19,9 +21,24 @@ const Home = () => {
                         <img src="https://i.ibb.co/hcNb21S/GZR3643-1.jpg" className='justify-content-center img-fluid w-50 ms-5 rounded-3' alt="" />
                         </div>
                         <About></About>
+                     
+                    <div class="content mt-5">
+                        <div class="title text-white"><span>My Skill</span></div>
+                    </div>
+                    <div className='d-flex'>
+                        <Link to='/home/web'><button className='rounded mt-5 ms-3 btn btn-outline mb-5'>web</button></Link>
+                        <Link to='/home/tools'><button className='rounded mt-5 ms-3 btn btn-outline mb-5'>tools</button></Link>
+                        <Link to='/home/familiar'><button className='rounded mt-5 ms-3 btn btn-outline mb-5'>Familiar</button></Link>
+                    </div>
+                        <Outlet></Outlet>
+                       
+
+                        {/* <Link to='/home/web'><button className='text-white'>web</button></Link> */}
+                       
                 </div>
+                <Contact></Contact>
             </div>
-        </div>
+        </section>
     );
 };
 
