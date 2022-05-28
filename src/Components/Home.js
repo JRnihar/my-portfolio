@@ -26,9 +26,9 @@ const Home = () => {
                         <div class="title text-white"><span>My Skill</span></div>
                     </div>
                     <div className='d-flex'>
-                        <Link to='/home/web'><button className='rounded mt-5 ms-3 btn btn-outline mb-5'>web</button></Link>
+                        <Link to='/home/web'><button className='rounded mt-5 ms-3 btn btn-outline mb-5'>Core</button></Link>
                         <Link to='/home/tools'><button className='rounded mt-5 ms-3 btn btn-outline mb-5'>tools</button></Link>
-                        <Link to='/home/familiar'><button className='rounded mt-5 ms-3 btn btn-outline mb-5'>Familiar</button></Link>
+                        <Link to='/home/familiar'><button className='rounded mt-5 ms-3 btn btn-outline mb-5'>Other</button></Link>
                     </div>
                         <Outlet></Outlet>
                        
