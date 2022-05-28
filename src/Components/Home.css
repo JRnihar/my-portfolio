@@ -1,13 +1,13 @@
  * {
-     background: #1d293a;
+     background: #0f151f;
  }
 
-.homeBody {
-    background: #1d293a;
-}
+/* .homeBody {
+    background: #0d131c;
+} */
 
 body {
-    background: #1d293a;
+    background: #0a0e14;
 
 }
 .line1{
@@ -34,4 +34,9 @@ button{
             border-color: #00cf5d;
             
         
+}
+@media only screen and (max-width: 400px) {
+    .img{
+        width: 100% !important;
+    }
 }

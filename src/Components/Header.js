@@ -15,7 +15,7 @@ const Header = () => {
                             <Nav.Link className='text-white text-bold' as={NavLink} to="/home">Home</Nav.Link>
                             <Nav.Link className='text-white' as={NavLink} to="/about">About</Nav.Link>
                           
-                            <Nav.Link className='text-white' as={NavLink} to="/portfolio">Portfolio</Nav.Link>
+                            <Nav.Link className='text-white' as={NavLink} to="/portfolio">Projects</Nav.Link>
                             <Nav.Link className='text-white' as={NavLink} to="/contact">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
