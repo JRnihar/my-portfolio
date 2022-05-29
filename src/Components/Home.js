@@ -23,7 +23,7 @@ const Home = () => {
                         
                          className="col-md-6">
                                 <p className='line1'>Hello!! I am</p>
-                                <h1 className='text-white text-bold name'>Monirul Islam</h1>
+                        <h1 className='text-white text-bold name'>Monirul Islam</h1>
                                 {/* <h3 className='title1 tex-bold'>Web Developer </h3> */}
                         <ul  className='d-flex'
                         > <li className='title1'><p className='text-white text-bold title2 d-flex'>Front-End Developer</p></li>
@@ -38,7 +38,7 @@ const Home = () => {
                         data-aos-duration="1000"
                        
                          className="col-md-6">
-                        <img src="https://i.ibb.co/hcNb21S/GZR3643-1.jpg" className='  img-fluid w-50  rounded-3' alt="" />
+                        <img src="https://i.ibb.co/hcNb21S/GZR3643-1.jpg" className='  img-fluid w-50 ms-5  rounded-3' alt="" />
                         </div>
                         <About></About>
                      

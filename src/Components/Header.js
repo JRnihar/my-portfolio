@@ -9,7 +9,7 @@ const Header = () => {
         >
             <Navbar  collapseOnSelect expand="lg  " >
                 <Container>
-                    <Navbar.Brand className='logo text-white'>Monirul Islam</Navbar.Brand>
+                    <Navbar.Brand  className='logo text-white'>Monirul Islam</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
