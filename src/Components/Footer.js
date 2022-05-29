@@ -14,7 +14,7 @@ const Footer = () => {
                         <a href="https://github.com/JRnihar" target='_blank'><i class=" text-white icon fa-brands fa-github"></i></a><a href="https://niharmonirulislam@gmail.com" target='_blank'><i class="text-white ms-3 icon fa-solid fa-envelope"></i></a><a href="https://www.facebook.com/monirulislam.nihar" target='_blank'><i class=" ms-3 text-white icon fa-brands fa-facebook-square"></i></a><a href="https://www.linkedin.com/in/moinr/" target='_blank'><i class=" ms-3 text-white icon fa-brands fa-linkedin" target='_blank'></i></a><a href="https://wa.me/1571142002" target='_blank'><i class=" ms-3 text-white icon fa-brands fa-whatsapp"></i></a>
 
                     </div>
-    <h4 class="text-white" >Moniruls Islam</h4>
+    <h4 class="text-white" >Monirul Islam</h4>
                   
   </div>
  
