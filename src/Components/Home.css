@@ -1,5 +1,6 @@
  * {
      background: #0f151f;
+     /* overflow-x: hidden; */
  }
 
 /* .homeBody {
@@ -8,7 +9,7 @@
 
 body {
     background: #0a0e14;
-
+    overflow-x: hidden;
 }
 .line1{
     color: #00cf5d;
@@ -34,6 +35,9 @@ button{
             border-color: #00cf5d;
             
         
+}
+.footerbg{
+    background: #00cf5d !important;
 }
 @media only screen and (max-width: 400px) {
     .img{

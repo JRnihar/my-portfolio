@@ -1,1 +1,9 @@
-
+.navheader{
+    background: rgb(0, 0, 0);
+    overflow-x: hidden;
+   
+}
+.navbar-light .navbar-toggler-icon{
+    background-color: #00cf5d !important;
+    padding: 20px;
+}

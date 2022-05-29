@@ -5,8 +5,9 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className='headerSection'>
-            <Navbar collapseOnSelect expand="lg " >
+        <div className='navheader'
+        >
+            <Navbar  collapseOnSelect expand="lg  " >
                 <Container>
                     <Navbar.Brand className='logo text-white'>Monirul Islam</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

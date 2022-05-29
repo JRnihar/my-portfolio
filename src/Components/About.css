@@ -1,3 +1,8 @@
+.aboutBody{
+    overflow-x:hidden ;
+}
+
+
 section .title {
     display: flex;
     justify-content: center;
@@ -35,7 +40,7 @@ section .title span::after {
         border-width: 2px !important;
         padding: 15px 25px !important;
         border-radius: 4px !important;
-        /* text-decoration: none; */
+      
         
        
         border-color: #00cf5d !important;
