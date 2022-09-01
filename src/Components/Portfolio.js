@@ -18,7 +18,7 @@ const Portfolio = () => {
                 <div class="col">
                     <div class="card w-100 h-100">
                         <div >
-                            <img src={EasyDocs} class="card-img-top h-100 " alt="..." />
+                            <img src={EasyDocs} class="  shrink card-img-top h-100 " alt="..." />
                         </div>
                         <div class="card-body">
                             <h3 class="card-title text-white">Easy Docs [Team-Work]</h3>
@@ -36,7 +36,7 @@ const Portfolio = () => {
                 <div class="col">
                     <div class="card w-100 h-100">
                        <div >
-                            <img src={computer} class="card-img-top h-100 " alt="..." />
+                            <img src={computer} class="shrink card-img-top h-100 " alt="..." />
                        </div>
                         <div class="card-body">
                             <h3 class="card-title text-white">Computer House</h3>
@@ -54,7 +54,7 @@ const Portfolio = () => {
                 <div class="col">
                     <div class="card w-100 h-100">
                         <div>
-                            <img src={Shop} class="card-img-top h-100  " alt="..." />
+                            <img src={Shop} class="shrink card-img-top h-100  " alt="..." />
                         </div>
                         <div class="card-body">
                             <h3 class="card-title text-white">DELPHINUS-SHOP
@@ -73,10 +73,10 @@ const Portfolio = () => {
                 <div class="col">
                     <div class="card w-100 h-100">
                         <div>
-                            <img src={Photography} class="card-img-top h-100  " alt="..." />
+                            <img src={Photography} class=" shrink card-img-top h-100  " alt="..." />
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title text-white">Mahi-Photography
+                            <h3 class="  card-title text-white">Mahi-Photography
 
                             </h3>
                             <p class="card-text text-white  mt-3">A front-end web application.And Strong Security with log-in and Registration system using Firebase </p>
@@ -93,7 +93,7 @@ const Portfolio = () => {
                 <div class="col">
                     <div class="card w-100 h-100">
                         <div>
-                            <img src={Ecomarce} class="card-img-top h-100  " alt="..." />
+                            <img src={Ecomarce} class="shrink  card-img-top h-100  " alt="..." />
                         </div>
                         <div class="card-body">
                             <h3 class="card-title text-white">Ema-John
@@ -113,7 +113,7 @@ const Portfolio = () => {
                 <div class="col">
                     <div class="card w-100 h-100">
                         <div>
-                            <img src={painting} class="card-img-top h-100  " alt="..." />
+                            <img src={painting} class=" shrink card-img-top h-100  " alt="..." />
                         </div>
                         <div class="card-body">
                             <h3 class="card-title text-white">Painting Shop
@@ -133,10 +133,10 @@ const Portfolio = () => {
                 <div class="col">
                     <div class="card w-100 h-100">
                         <div>
-                            <img src={calculate} class="card-img-top h-100  " alt="..." />
+                            <img src={calculate} class=" shrink card-img-top h-100  " alt="..." />
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title text-white">Money Master
+                            <h3 class="  card-title text-white">Money Master
 
                             </h3>
                             <p class="card-text text-white  mt-3">A simple calculate system using raw javascript.</p>

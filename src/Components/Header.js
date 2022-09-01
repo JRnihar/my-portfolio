@@ -4,10 +4,10 @@ import ReactSwitch from 'react-switch';
 import './Header.css'
 const Header = () => { 
     return (
-        <div className='navheader'
+        <div
         >
             <Navbar  collapseOnSelect expand="lg  " >
-                <Container>
+                <Container className='navheader' >
                     <Navbar.Brand as={NavLink} to="/home" className='logo text-white'>Monirul Islam</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">

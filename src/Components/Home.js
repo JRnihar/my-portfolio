@@ -24,7 +24,7 @@ const Home = () => {
                         
                          className="col-md-6">
                                 <p className='line1'>Hello!! I am</p>
-                        <h1 className='text-white text-bold name'>Monirul Islam</h1>
+                        <h3 className='text-white text-bold name'>Monirul Islam</h3>
                                 {/* <h3 className='title1 tex-bold'>Web Developer </h3> */}
                         <ul  className='d-flex'
                         > <li className='title1'><p className='text-white text-bold title2 d-flex'>Junior Front-End Developer</p></li>
@@ -36,7 +36,7 @@ const Home = () => {
                         <div 
                        
                          className="col-md-6">
-                        <img src={BgImage} className='  img-fluid w-50 ms-5  rounded-3' alt="" />
+                        <img src={BgImage} className=' fadein img-fluid w-50 ms-5  rounded-3' alt="" />
                         </div>
                         <About></About>
                      

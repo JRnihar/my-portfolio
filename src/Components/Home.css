@@ -1,49 +1,56 @@
  * {
      background: #0f151f;
-    
+
  }
 
-/* .homeBody {
+ /* .homeBody {
     background: #0d131c;
 } */
 
-body {
-    background: #0a0e14;
-    overflow-x: hidden;
-}
-.line1{
-    color: #00cf5d;
-    font-size: 22px;
-}
-.name{
-    font-size: 78px;
-}
-.title1{
-    color: #00cf5d;
-}
-.title2{
-    font-size: 22px;
-}
-button{
-    border-style: solid;
-        border-width: 2px;
-        padding: 15px 25px;
-        border-radius: 4px;
-        /* text-decoration: none; */
-        background-color: #00cf5d;
-        color: rgba(255, 255, 255, 0.85);
-            border-color: #00cf5d;
-            
-        
-}
-.footerbg{
-    background: #00cf5d !important;
-}
-@media only screen and (max-width: 400px) {
-    .img{
-        width: 100% !important;
-    }
-}
+ body {
+     background: #0a0e14;
+     overflow-x: hidden;
+ }
+
+ .line1 {
+     color: #00cf5d;
+     font-size: 22px;
+ }
+
+ .name {
+     font-size: 58px;
+ }
+
+ .title1 {
+     color: #00cf5d;
+ }
+
+ .title2 {
+     font-size: 22px;
+ }
+
+ button {
+     border-style: solid;
+     border-width: 2px;
+     padding: 15px 25px;
+     border-radius: 4px;
+     /* text-decoration: none; */
+     background-color: #00cf5d;
+     color: rgba(255, 255, 255, 0.85);
+     border-color: #00cf5d;
+
+
+ }
+
+ .footerbg {
+     background: #00cf5d !important;
+ }
+
+ @media only screen and (max-width: 400px) {
+     .img {
+         width: 100% !important;
+     }
+ }
 
 
  .scroll-to-top {
@@ -62,11 +69,42 @@ button{
 
  .scroll-to-top svg {
 
-        border-radius: 295px !important;
-        height: 22px !important;
-        margin-top: -9px !important;
-        margin-right: 15px !important;
-        width: 18px !important;
-        background-color: #ffff;
-        fill: #00cf5d;
+     border-radius: 295px !important;
+     height: 22px !important;
+     margin-top: -9px !important;
+     margin-right: 15px !important;
+     width: 18px !important;
+     background-color: #ffff;
+     fill: #00cf5d;
+ }
+
+
+
+ .fadein {
+     opacity: 0.5;
+     transition: 1s ease;
+ }
+
+ .fadein:hover {
+     opacity: 1;
+     transition: 1s ease;
+ }
+
+
+
+
+
+
+ .shrink {
+     transition: 1s ease;
+ }
+
+ .shrink:hover {
+     -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.2);
+     transition: 1s ease;
+     box-shadow: 0 0 0 3px #ede1e1;
+     
+     /* z-index: -1; */
  }
