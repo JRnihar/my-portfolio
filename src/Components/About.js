@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import AboutImg from '../assests/full-stack-development-unscreen22.gif'
 import './About.css'
 
 
@@ -18,7 +19,7 @@ const About = () => {
                      data-aos-duration="1000"
                      
                      className="col-md-6">
-                        <img src="https://i.ibb.co/Qfdgn0s/GZR3671.jpg" className=' img-fluid w-100  mt-5 rounded-3' alt="" />
+                        <img src={AboutImg} className=' img-fluid w-100  mt-5 rounded-3' alt="" />
                     
                     </div>
                     <div 

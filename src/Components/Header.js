@@ -1,15 +1,14 @@
-import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
+import ReactSwitch from 'react-switch';
 import './Header.css'
-
-const Header = () => {
+const Header = () => { 
     return (
         <div className='navheader'
         >
             <Navbar  collapseOnSelect expand="lg  " >
                 <Container>
-                    <Navbar.Brand  className='logo text-white'>Monirul Islam</Navbar.Brand>
+                    <Navbar.Brand as={NavLink} to="/home" className='logo text-white'>Monirul Islam</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
@@ -18,6 +17,7 @@ const Header = () => {
                           
                             <Nav.Link className='text-white' as={NavLink} to="/portfolio">Projects</Nav.Link>
                             <Nav.Link className='text-white' as={NavLink} to="/contact">Contact</Nav.Link>
+                            
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -1,4 +1,3 @@
-
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Components/About';
@@ -11,9 +10,13 @@ import Skill from './Components/Skill';
 import Tools from './Components/Tools';
 import Web from './Components/Web';
 
+
 function App() {
+
+
   return (
-    <div className='app' >
+    
+    <div  >
      <Header></Header>
      <Routes>
      <Route path='/' element={<Home></Home>}></Route>
@@ -29,6 +32,7 @@ function App() {
        <Route path='portfolio' element={<Portfolio></Portfolio>}></Route>
      </Routes>
     </div>
+   
   );
 }
 

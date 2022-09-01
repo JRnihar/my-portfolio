@@ -1,6 +1,6 @@
  * {
      background: #0f151f;
-     /* overflow-x: hidden; */
+    
  }
 
 /* .homeBody {
@@ -44,3 +44,29 @@ button{
         width: 100% !important;
     }
 }
+
+
+ .scroll-to-top {
+     background-color: white;
+     /* right: 40px;
+     bottom: 40px; */
+     position: fixed;
+     z-index: 2;
+     cursor: pointer;
+     border-radius: 60% !important;
+     width: 13px !important;
+     height: 60px !important;
+     border: 5px solid #00cf5d !important;
+     box-shadow: 0 0px 15px 0 rgb(132 128 177 / 28%) !important;
+ }
+
+ .scroll-to-top svg {
+
+        border-radius: 295px !important;
+        height: 22px !important;
+        margin-top: -9px !important;
+        margin-right: 15px !important;
+        width: 18px !important;
+        background-color: #ffff;
+        fill: #00cf5d;
+ }

@@ -4,41 +4,39 @@ import About from './About';
 import Contact from './Contact';
 import './Home.css'
 import Portfolio from './Portfolio';
+import BgImage from '../assests/_GZR3675-removebg-preview.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Footer from './Footer';
+import ScrollToTop from 'react-scroll-to-top';
 // ..
 AOS.init();
 
 const Home = () => {
+    
     return (
         <section className='homeBody'>
+            <ScrollToTop smooth color="red" top='20' />
            
             <div className="container">
-                <div className="row mt-5">
-                        <div data-aos="fade-down-right"
-                    
-                        data-aos-delay="50"
-                        data-aos-duration="1000"
+                <div className="row mt-5 d-flex justify-content-center align-items-center">
+                        <div
                         
                          className="col-md-6">
                                 <p className='line1'>Hello!! I am</p>
                         <h1 className='text-white text-bold name'>Monirul Islam</h1>
                                 {/* <h3 className='title1 tex-bold'>Web Developer </h3> */}
                         <ul  className='d-flex'
-                        > <li className='title1'><p className='text-white text-bold title2 d-flex'>Front-End Developer</p></li>
+                        > <li className='title1'><p className='text-white text-bold title2 d-flex'>Junior Front-End Developer</p></li>
                          {/* <li className='title1 ms-5'><p className='text-white text-bold title2'>Full-Stack Developer</p></li> */}
                          </ul>
                         <a href="https://drive.google.com/file/d/1_SJfqAVtDyl93XUsZT4vNTti3P4_4no-/view?usp=sharing" target="_blank" rel="noopener noreferrer"> <button className='rounded mt-5 mb-5'>Resume</button></a>
                         <Link to='/about'><button className='rounded mt-5 ms-3 btn btn-outline mb-5'>About Me</button></Link>
                         </div>
-                        <div data-aos="fade-down-left"
-                        
-                        data-aos-delay="50"
-                        data-aos-duration="1000"
+                        <div 
                        
                          className="col-md-6">
-                        <img src="https://i.ibb.co/hcNb21S/GZR3643-1.jpg" className='  img-fluid w-50 ms-5  rounded-3' alt="" />
+                        <img src={BgImage} className='  img-fluid w-50 ms-5  rounded-3' alt="" />
                         </div>
                         <About></About>
                      
