@@ -19,7 +19,7 @@ const Contact = () => {
                 
                  
                      className="col-md-6">
-                        <h4 className='lead text-white mt-5'>I am a dedicated and practicing full stack development with solid knowledge in different technologies and
+                        <h4 className='lead text-white mt-5'>I am a dedicated and practicing <p className='line1'>Front-End/Full Stack development</p> with solid knowledge in different technologies and
                             self-motivated and hardworking for an opportunity to work in a challenging environment to prove my
                             skills and utilize my knowledge in the growth of the organization.
                             I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me. <br />

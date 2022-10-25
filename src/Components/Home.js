@@ -8,7 +8,7 @@ import BgImage from '../assests/_GZR3675-removebg-preview.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Footer from './Footer';
-import ScrollToTop from 'react-scroll-to-top';
+
 // ..
 AOS.init();
 
@@ -16,7 +16,7 @@ const Home = () => {
     
     return (
         <section className='homeBody'>
-            <ScrollToTop smooth color="red" top='20' />
+            
            
             <div className="container">
                 <div className="row mt-5 d-flex justify-content-center align-items-center">
