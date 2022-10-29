@@ -30,7 +30,7 @@ const Home = () => {
                         > <li className='title1'><p className='text-white text-bold title2 d-flex'>Junior Front-End Developer</p></li>
                          {/* <li className='title1 ms-5'><p className='text-white text-bold title2'>Full-Stack Developer</p></li> */}
                          </ul>
-                        <a href="https://drive.google.com/file/d/1_SJfqAVtDyl93XUsZT4vNTti3P4_4no-/view?usp=sharing" target="_blank" rel="noopener noreferrer"> <button className='rounded mt-5 mb-5'>Resume</button></a>
+                        <a href="https://drive.google.com/file/d/18FXcYZ6WoYhr3JzUbb-vPQxKXU3DP3Ns/view?usp=share_link" target="_blank" rel="noopener noreferrer"> <button className='rounded mt-5 mb-5'>Resume</button></a>
                         <Link to='/about'><button className='rounded mt-5 ms-3 btn btn-outline mb-5'>About Me</button></Link>
                         </div>
                         <div 
